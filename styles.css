@@ -23,6 +23,10 @@ body {
     margin: 0 auto;
 }
 
+.container {
+    padding: 92px 32px;
+}
+
 .row {
     width: 100%;
     max-width: 1200px;
@@ -39,24 +43,27 @@ img {
 
 .nav__container {
     display: flex; 
+    width: 100%;
+    max-width: 1000px;
     
 }
 
-.treact__logo  {
+.treact__container  {
     display: flex;
-    font-weight: 900;
-    flex: 1;
-    width: 100%;
-    max-width: 80px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
    
 }
 
+.treact__logo {
+    flex: 1;
+    width: 100%;
+    max-width: 80px;
+}
+
+
 .treact {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center; 
+    
 }
 
 .container {
@@ -71,7 +78,8 @@ NAV BAR
 
 
 nav {
-    margin: 0 auto;
+    
+ 
     display: flex;
     position: relative;
     justify-content: space-between;
@@ -120,9 +128,22 @@ Landing page
     color: rgb(100,21,255, 1);
 }
 
-.left__header {
+.two__column--container {
     display: flex;
-    margin: 100px 10px 10px 100px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left__column {
+    height: auto;
+    width: 50%;
+}
+
+.left__header {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 100px;
+   
    line-height: 1.25;
    font-size: 36px;
 }
@@ -131,43 +152,40 @@ Landing page
      display: flex;
      width: 100%;
      max-width: 500px;
-    margin: 50px 10px 10px 100px;
+   margin-top: 50px;
     font-size: 16px;
 }
 
-.two__column {
-    align-items: center;
-    justify-content: center;
-}
-
-.two__column--input-container {
-    align-items: center;
-    justify-content: center;
-}
-
-.two__column--input {
+.btn__wrapper {
     position: relative;
+   z-index: 3;
+}
+
+.left__column--input {
     display: flex;
     opacity: 0.5;
-    padding: 30px 60px 30px 32px;
+    padding: 20px 32px;
     font-size: 15px;
     border: 2px solid ;
     border-radius: 40px;
-    margin-top: 40px;
-    margin-left: 100px;
+    margin: 32px 0;
     width: 100%;
     max-width: 400px;
-    
     background-color: transparent;
 }
 
-.btn__input {
+.btn {
     position: absolute;
-    padding: 20px 36px;
-    display: flex;
+  
+}
+
+.right__column {
+    width: 50%; 
     align-items: center;
     justify-content: center;
-    margin-top: 12px;
-    margin-right: 600px;
-    margin-left: 320px;
+  
+}
+
+.img--container {
+  
 }
