@@ -14,7 +14,7 @@
 }
 
 section {
-  margin: 80px 0;
+  margin-bottom: 100px;
 }
 
 body {
@@ -442,7 +442,6 @@ Values
   color: black;
 }
 
-
 /* 
 
 Pricing
@@ -455,6 +454,16 @@ Pricing
   text-align: center;
 }
 
+.description__pricing {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  max-width: 550px;
+  margin-left: 300px;
+  margin-bottom: 48px;
+  line-height: 24px;
+}
+
 .plans {
   display: flex;
   flex-wrap: wrap;
@@ -464,4 +473,130 @@ Pricing
   width: calc(100% / 3);
   display: flex;
   flex-direction: column;
+  border: 2px solid #d3d5d5;
+  margin-left: 12px;
+  margin-bottom: 48px;
+  max-width: 350px;
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.color__top--green {
+  height: 14px;
+  width: 100%;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
+}
+
+.color__top--red {
+  height: 14px;
+  width: 100%;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
+}
+
+.individuals h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a202c;
+  margin: 28px 0;
+}
+
+.individuals ul li {
+  line-height: 48px;
+  list-style: none;
+}
+
+.plan h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a202c;
+  margin-top: 48px;
+}
+
+.plan h1 {
+  font-size: 48px;
+  color: #1a202c;
+  margin: 16px 0px;
+  font-weight: 800;
+}
+
+.banner h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #898a8a;
+  margin-bottom: 28px;
+}
+
+.price__button {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 16px 48px;
+  border-radius: 50px;
+  border: none;
+  margin: 24px 0px;
+}
+
+.buy__card1 {
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
+  color: white;
+}
+
+.small__businesses {
+  background: linear-gradient(
+    135deg,
+    rgb(76, 81, 191) 0%,
+    rgb(102, 126, 234) 100%
+  );
+  
+}
+
+
+.c2 h3 {
+  color: white;
+}
+.c2 h1 {
+  color: white;
+}
+.c2 h2 {
+  color: white;
+}
+
+
+.c2 li{
+  color: white;
+}
+
+.buy__card2 {
+  color: #6416ff;
+  background-color: white;
+}
+
+
+.buy__card3 {
+  color: white;
+  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.c2 {
+  background: linear-gradient(135deg,rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+  
 }
