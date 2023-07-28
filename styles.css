@@ -600,3 +600,48 @@ Pricing
   background: linear-gradient(135deg,rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
   
 }
+
+/* 
+
+Testimonial
+
+*/
+
+.testimonial__wrapper {
+  width: 100%;
+  display: flex;
+}
+
+
+.testimonial__img {
+  width: 50%;
+  margin-right: 64px;
+}
+
+
+
+.testimonial__text--wrapper {
+  width: 50%;
+}
+
+.Test__description {
+  margin-bottom: 48px;
+}
+
+.test__card--desc {
+  margin-top: 48px;
+}
+
+.test--user {
+  display: flex;
+  align-items: center;
+}
+
+
+.profile-img {
+  margin: 24px;
+  border: 1px solid black;
+  overflow: hidden;
+  border-radius: 9999px;
+  width: 80px;
+}
