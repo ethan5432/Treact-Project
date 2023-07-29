@@ -42,6 +42,7 @@ img {
   width: 100%;
   max-width: 1000px;
   font-weight: bold;
+  margin-top: 32px;
 }
 
 .treact__container {
@@ -60,6 +61,7 @@ img {
 
 .treact {
   text-decoration: none;
+  font-weight: 700;
 }
 
 .container {
@@ -105,14 +107,24 @@ nav {
 }
 
 .signup__link {
-  display: flex;
-  padding: 10px 32px;
-  background-color: rgb(100, 21, 255, 1);
-  border-radius: 9999px; /**/
-  overflow: hidden;
-  font-size: 12px;
-  font-weight: 600;
+  padding: 8px 0;
+  width: 120px;
+  border-radius: 9999px;
+  background-color: #6315ff;
+  border-color: #8245fd71;
+  text-align: center;
+  font-size: 16px;
+  color: #f7fafc;
+  font-weight: bold;
+  line-height: 1.5;
+  
+  transition: 300ms ease;
 }
+
+.signup__link:hover {
+  background-color: #3e00b9;
+}
+
 
 .purple__boarder {
   display: flex;
@@ -161,20 +173,29 @@ Landing page
 .btn__wrapper {
   position: relative;
   width: 100%;
+  max-width: 700px;
   margin-top: 20px;
-  z-index: 3;
 }
 
 .left__column--input {
-  padding: 20px 32px;
+  text-align: left;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 100px;
+  padding-left: 20px;
   font-size: 16px;
   font-weight: 500;
-  border: 2px solid #e5e7eb;
+  border: 2px solid #e2e8f0;
   border-radius: 100px;
-  border-color: rgba(40, 66, 144, 0.6);
   width: 100%;
-  max-width: 400px;
+  max-width: 700px;
   background-color: transparent;
+  color: #4e4763;
+  transition: 300ms ease;
+}
+
+.left__column--input:hover {
+  border-color: rgba(40, 66, 144, 0.6);
 }
 
 .btn {
@@ -187,16 +208,18 @@ Landing page
   color: #f7fafc;
   font-weight: bold;
   line-height: 1.5;
+  transition: 300ms ease;
+}
+
+.btn:hover {
+   background-color: #8d58f7;
 }
 
 .get__started {
   position: absolute;
-  margin-right: 60px;
-  margin-bottom: 20px;
-  margin-left: 240px;
   padding: 10px 0;
-  right: 6px;
-  top: 6px;
+  right: 60px;
+  top: 30px;
   text-align: center;
   width: 160px;
   border-radius: 9999px;
@@ -207,6 +230,11 @@ Landing page
   color: #f7fafc;
   font-weight: bold;
   line-height: 1.5;
+  transition: 300ms ease;
+}
+
+.get__started:hover {
+  background-color: #3e00b9;
 }
 
 .btn__general {
@@ -222,6 +250,11 @@ Landing page
   color: #f7fafc;
   font-weight: bold;
   line-height: 1.5;
+  transition: 300ms ease;
+}
+
+.btn__general:hover {
+  background-color: #3e00b9;
 }
 
 .btn:hover {
