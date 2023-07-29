@@ -5,7 +5,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
-  color: black;
   letter-spacing: 1px;
 
   .signup__link {
@@ -566,9 +565,7 @@ Pricing
     rgb(76, 81, 191) 0%,
     rgb(102, 126, 234) 100%
   );
-  
 }
-
 
 .c2 h3 {
   color: white;
@@ -580,8 +577,7 @@ Pricing
   color: white;
 }
 
-
-.c2 li{
+.c2 li {
   color: white;
 }
 
@@ -590,15 +586,21 @@ Pricing
   background-color: white;
 }
 
-
 .buy__card3 {
   color: white;
-  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+  background: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
 }
 
 .c2 {
-  background: linear-gradient(135deg,rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
-  
+  background: linear-gradient(
+    135deg,
+    rgb(76, 81, 191) 0%,
+    rgb(102, 126, 234) 100%
+  );
 }
 
 /* 
@@ -612,13 +614,10 @@ Testimonial
   display: flex;
 }
 
-
 .testimonial__img {
   width: 50%;
   margin-right: 64px;
 }
-
-
 
 .testimonial__text--wrapper {
   width: 50%;
@@ -628,8 +627,27 @@ Testimonial
   margin-bottom: 48px;
 }
 
+.test__card {
+  padding: 15px;
+  border: 1px solid rgb(234, 232, 232);
+  border-radius: 10px;
+}
+
+.test__card--wrappr {
+  margin-top: 24px;
+}
+
+.stars {
+  margin-bottom: 12px;
+}
+
+.test__card--title {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
 .test__card--desc {
-  margin-top: 48px;
+  font-size: 16px;
 }
 
 .test--user {
@@ -637,11 +655,35 @@ Testimonial
   align-items: center;
 }
 
-
 .profile-img {
   margin: 24px;
   border: 1px solid black;
   overflow: hidden;
   border-radius: 9999px;
   width: 80px;
+}
+
+.move__btn {
+  display: flex;
+  width: 25%;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 80px;
+}
+
+.divider {
+  background-color: #898a8a;
+  height: 20px;
+  width: 1px;
+}
+
+.Back, .Front{
+  border-radius: 50px;
+  height: 48px;
+  width: 48px;
+  margin: 0px 5px;
+  border: none;
+  color: #6416ff;
+  font-size: 16px;
+  font-weight: 700;
 }
