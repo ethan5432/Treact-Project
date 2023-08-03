@@ -90,6 +90,18 @@ nav {
   text-decoration: none;
 }
 
+.fas .fa-bars {
+  font-weight: 900;
+}
+
+.btn__menu {
+  color:#8d58f7;
+  font-size: 28px;
+  text-align: center;
+  border: none;
+  background: transparent;
+}
+
 .nav__links {
   display: flex;
   margin-left: 400px;
@@ -242,7 +254,7 @@ Landing page
   right: 60px;
   top: 30px;
   text-align: center;
-  width: 160px;
+  width: 33%;
   border-radius: 9999px;
   background-color: #6315ff;
   border-color: #8245fd71;
@@ -906,14 +918,100 @@ footer {
 }
 
 
+@media (max-width: 1200px) {
+   .nav__links {
+    display: none;
+  }
+}
+
+
+
+@media (max-width: 1000px) {
+   .nav__links {
+    display: none;
+    
+  }
+
+  .row {
+    padding: 0 16px;
+    flex-direction: column;
+  }
+
+  .left__column--input {
+    position: relative;
+    font-size: 16px;
+    padding-right: 10px;
+  }
+
+  .get__started {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    width: 65%;
+  }
+
+  .features__title--wrapper {
+    justify-content: center;
+    align-items: center;
+  }
+
+ .service {
+  width: calc(100% / 2);
+ }
+
+ .df {
+  flex-direction: column;
+  
+ }
+
+ .example {
+  padding-top: 20px;
+ }
+
+ .steps__container {
+  flex-direction: column;
+ }
+
+ .example__steps {
+  padding-bottom: 28px;
+ }
+
+  .two__column--container {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .right__column {
+    padding-top: 24px;
+  }
+
+  .testimonial__wrapper {
+    flex-direction: column;
+  }
+
+  .box {
+    flex-direction: column;
+    width: 75%;
+    height: 50vh;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
 
 
 /* small phones, tablets*/
 
-@media (max-width: 728px) {
+@media (max-width: 768px) {
   .row {
     flex-direction: column;
+    padding: 0 12px;
   }
+
+    
 
   h1 {
     text-align: center;
@@ -935,17 +1033,11 @@ footer {
     font-size: 12px;
   }
 
-  .two__column--container {
-    flex-direction: column;
-    text-align: center;
-  }
+ 
 
-  .nav__links {
-    display: none;
-  }
+ 
 
   .services__wrapper {
-    flex-direction: column;
     flex-wrap: wrap;
   }
 }
