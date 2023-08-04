@@ -12,6 +12,11 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 a {
   text-decoration: none;
 }
@@ -95,11 +100,9 @@ nav {
 }
 
 .btn__menu {
-  color:#8d58f7;
-  font-size: 28px;
-  text-align: center;
+  color: white;
+  background-color: white;
   border: none;
-  background: transparent;
 }
 
 .nav__links {
@@ -936,14 +939,51 @@ footer {
 
 
 @media (max-width: 1200px) {
+
+   .row {
+    padding: 0 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.fas .fa-bars {
+  font-weight: 900;
+}
+
+.btn__menu {
+  color:#8d58f7;
+  font-size: 28px;
+  text-align: center;
+  border: none;
+  background: transparent;
+}
+
    .nav__links {
     display: none;
+  }
+
+    .plans {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .description__pricing {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .testimonial__wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
 
 h1 {
   align-items: center;
@@ -960,18 +1000,7 @@ p {
   justify-content: center;
 }
 
-
-
-   .nav__links {
-    display: none;
-    
-  }
-
-  .row {
-    padding: 0 16px;
-    flex-direction: column;
-    align-items: center;
-  }
+ 
 
   .left__column--input {
     align-items: center;
@@ -994,6 +1023,7 @@ p {
     justify-content: center;
     align-items: center;
     margin: 0;
+    max-width: 100%;
   }
 
  .service {
@@ -1027,24 +1057,10 @@ p {
     padding-top: 24px;
   }
 
-  .plans {
-    align-items: center;
-    justify-content: center;
-  }
 
-  .description__pricing {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .testimonial__wrapper {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
 
   .box {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
