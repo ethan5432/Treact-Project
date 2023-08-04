@@ -176,6 +176,7 @@ Landing page
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
 }
 
@@ -340,12 +341,18 @@ Features
 }
 
 .page__title {
+  align-items: center;
+  justify-content: center;
   margin-bottom: 16px;
   font-weight: 700;
   font-size: 16px;
 }
 
 .page__tagline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-size: 48px;
   margin-bottom: 32px;
   font-weight: 900;
@@ -405,6 +412,9 @@ Quality
 
 .df {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   width: 100%;
 }
 
@@ -483,6 +493,9 @@ Values
 .small__para {
   display: flex;
   margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .aligner {
@@ -494,6 +507,7 @@ Values
   margin-top: 12px;
   color: #898a8a;
   font-weight: 400;
+  padding-right: 12px;
 }
 
 .professional {
@@ -501,6 +515,7 @@ Values
   margin-top: 12px;
   color: #898a8a;
   font-weight: 400;
+  padding-left: 12px;
 }
 
 .aligner__header {
@@ -538,6 +553,8 @@ Pricing
 }
 
 .description__pricing {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -927,6 +944,24 @@ footer {
 
 
 @media (max-width: 1000px) {
+
+h1 {
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  align-items: center;
+  justify-content: center;
+}
+
+
+
    .nav__links {
     display: none;
     
@@ -935,9 +970,11 @@ footer {
   .row {
     padding: 0 16px;
     flex-direction: column;
+    align-items: center;
   }
 
   .left__column--input {
+    align-items: center;
     position: relative;
     font-size: 16px;
     padding-right: 10px;
@@ -952,8 +989,11 @@ footer {
   }
 
   .features__title--wrapper {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
   }
 
  .service {
@@ -987,18 +1027,40 @@ footer {
     padding-top: 24px;
   }
 
+  .plans {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .description__pricing {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
   .testimonial__wrapper {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .box {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 75%;
     height: 50vh;
   }
 
   footer {
     width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn__general {
+    align-items: center;
+    justify-content: center;
   }
 }
 
