@@ -169,9 +169,14 @@ nav {
 }
 
 .link__hover--effect:hover {
-  background-color: #6315ff;
+  color: #6315ff;
   text-decoration: underline 2px;
   text-underline-offset: 6px;
+
+    width: 0;
+    bottom: -3px;
+    right: 0;
+    transition: all 300ms ease;
 }
 
 
