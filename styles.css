@@ -134,6 +134,11 @@ nav {
   border-radius: 24px;
 }
 
+.nav__link--primary:hover {
+  background-color: #3e00b9;
+}
+
+
 .menu--open .menu__backdrop {
   visibility: visible;
   opacity: 1;
@@ -149,6 +154,17 @@ nav {
   right: 20px;
   top: 10px;
   padding: 8px;
+}
+
+.menu__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.menu__link:hover {
+  color: #1c0055;
 }
 
 .menu__list {
@@ -216,6 +232,10 @@ nav {
   background-color: rgb(100, 21, 255, 1);
   border-radius: 40px; /**/
   overflow: hidden;
+}
+
+.i {
+  background-color: transparent;
 }
 
 /* 
