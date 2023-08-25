@@ -170,6 +170,7 @@ nav {
 
 .link__hover--effect::after {
   content: "";
+  background-color: #3e00b9;
   position: absolute;
   height: 3px;
   width: 0;
